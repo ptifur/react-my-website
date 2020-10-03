@@ -10,9 +10,6 @@ How to build the project and deploy it. And how to use Netlify CLI as well.
 
 `rel="noopener noreferrer`
 
-`npm run build`
-
 ### Todo
 
 - Media query
-- Change the domain settings
