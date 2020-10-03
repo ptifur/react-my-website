@@ -65,6 +65,17 @@ a:hover {
     border-radius: 8px;
     padding: 20px 28px;
     margin-bottom: 80px;
+    position: relative;
+}
+
+.maintext::before {
+    content: '';
+    position: absolute;
+    top: -85px;
+    left: 10vw;
+    background: url('./components/bubble.png') no-repeat;
+    width: 85px;
+    height: 85px;
 }
 
 h1 {
