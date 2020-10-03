@@ -1,15 +1,21 @@
 ## Practice project
 
-All right here is my first project in React.
+All right here is my first project in React
 
 It doesn't really do much but still it's the first step!
 
-I figured out the basic file srtucture. Learned how to import images.
+- I figured out the basic file srtucture
 
-How to build the project and deploy it. And how to use Netlify CLI as well.
+- Learned how to import images
 
-`rel="noopener noreferrer`
+- How to `build` the project and deploy it
+
+- Learned to add `rel="noopener noreferrer` with the `target="_blank"` links
 
 ### Todo
 
-- Media query
+- Add comic bubble thing
+
+- Try paperclip
+
+- Image on transparent background
