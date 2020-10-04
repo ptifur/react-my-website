@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
     color: #42474e;
     font-family: 'IBM Plex Serif', serif;
     letter-spacing: .5px;
