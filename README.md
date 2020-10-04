@@ -14,7 +14,7 @@ It doesn't really do much but still it's the first step!
 
 ### Todo
 
-- Add comic bubble thing
+- ~~Add comic bubble thing~~
 
 - Try paperclip
 
