@@ -14,4 +14,6 @@ Added a cookie banner
 
 ## Preview
 
-![Here is the preview] (src/media/preview.png)
+![Preview] (preview.png)
+
+![Absolute path](https://github.com/ptifur/react-my-website/blob/main/src/media/preview.png)
