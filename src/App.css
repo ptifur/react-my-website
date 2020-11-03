@@ -97,6 +97,30 @@ h1 {
     margin-left: 5px;
 }
 
+/* cookie banner */
+.cookieconsent {
+    position: fixed;
+    padding: 20px;
+    left: 15px;
+    bottom: 15px;
+    background-color:#f5f5f5;
+    font-size: .8em;
+    color:#272c31;
+    text-align: center;
+    width: 17vw;
+    z-index: 10 ;
+}
+
+.cookieconsent a {
+    font-size: 1em;
+    font-weight: 600;
+    color: #e47171;
+}
+
+.cookieconsent a:hover {
+    color: #c26161;
+}
+
 @media all and (max-width: 850px) {
 
     .navbar {
@@ -105,6 +129,22 @@ h1 {
 
     .maintext {
         width: 90vw;
+    }
+
+    .cookieconsent {
+        position: inherit;
+        padding: 20px;
+        margin: auto;
+        /* left: 5vw;
+        right: 5vw; */
+        bottom: 15px;
+        color:#272c31;
+        text-align: center;
+        width: 90vw;
+    }
+
+    body {
+        margin-bottom: 50px;
     }
 
 }
