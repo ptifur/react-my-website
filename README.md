@@ -13,6 +13,3 @@ Can you actually read from json file in React?
 ## Preview
 
 ![](https://github.com/ptifur/react-my-website/blob/main/src/media/preview.png)
-
-## Next
-
