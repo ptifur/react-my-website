@@ -14,4 +14,4 @@ Added a cookie banner
 
 ## Preview
 
-![Here is the preview] (/src/media/preview.png)
+![Here is the preview] (src/media/preview.png)
