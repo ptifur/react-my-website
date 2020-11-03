@@ -1,3 +1,10 @@
+:root {
+    --bg: #f5f5f5;
+    --text: #42474e;
+    --textgrey: #a5a5a5;
+    --highlight: #eb5252;
+}
+
 * {
     box-sizing: border-box;
     color: #42474e;
@@ -29,7 +36,10 @@ body {
 
 .menu {
     display: flex;
-    gap: 25px;
+}
+
+.menu a {
+    margin-left: 25px;
 }
 
 a {
@@ -48,7 +58,7 @@ a:hover {
 }
 
 .hero {
-    background: url(./components/me.png) no-repeat, #ffffff;
+    background: url(./media/me.png) no-repeat, #ffffff;
     background-position: center;
     background-size: 70vh;
     display: flex;
@@ -75,7 +85,7 @@ a:hover {
     position: absolute;
     top: -85px;
     left: 10vw;
-    background: url('./components/bubble.png') no-repeat;
+    background: url('./media/fin.png') no-repeat;
     width: 85px;
     height: 85px;
 }
@@ -91,6 +101,7 @@ h1 {
     font-weight: 600;
 }
 
+/* this is not used in this version */
 .emoji {
     font-size: 1.6em;
     vertical-align: -5px;
@@ -121,30 +132,102 @@ h1 {
     color: #c26161;
 }
 
+/* temporary fix for emoji */
+.blogpost div span {
+    font-size: 1.6em;
+    vertical-align: -5px;
+    margin-left: 5px;
+}
+
+.blogpost,
+.post {
+    width: 55vw;
+    max-width: 930px;
+    margin: auto;
+    background: var(--bg);
+    border-radius: 8px;
+    padding: 10px 32px 20px 32px;
+    margin-bottom: 85px;
+    position: relative;
+}
+
+.blogpost::before {
+    content: '';
+    position: absolute;
+    top: -35px;
+    left: 4.5vw;
+    background: url('./media/paperclip.png') no-repeat;
+    background-size: 60%;
+    width: 85px;
+    height: 85px;
+}
+
+.blogpost a {
+    font-size: 1em;
+    color: var(--highlight);
+}
+
+/* this won't be neede later */
+.post a {
+    font-size: 1em;
+    color: var(--highlight);
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 1.35rem;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.date {
+    color: var(--textgrey);
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: right;
+    font-size: .9rem;
+}
+
 @media all and (max-width: 850px) {
 
     .navbar {
         width: 90vw;
     }
 
+    .post,
+    .blogpost,
     .maintext {
         width: 90vw;
+    }
+
+    h2 {
+        width: 80vw;
+        margin: auto;
+        margin-top: 120px;
+        margin-bottom: 80px;
     }
 
     .cookieconsent {
         position: inherit;
         padding: 20px;
         margin: auto;
-        /* left: 5vw;
-        right: 5vw; */
         bottom: 15px;
         color:#272c31;
         text-align: center;
         width: 90vw;
-    }
-
-    body {
-        margin-bottom: 50px;
     }
 
 }
