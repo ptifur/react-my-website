@@ -13,3 +13,9 @@ Can you actually read from json file in React?
 ## Preview
 
 ![](https://github.com/ptifur/react-my-website/blob/main/src/media/preview.png)
+
+## Next
+
+Figure out robots.txt
+
+Or how else not to index the site
