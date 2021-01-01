@@ -7,7 +7,7 @@ const BlogPostRead = () => (
         {postData.map((data, key) => (
             <div key={key} className='blogpost'>
                 <div className="blog-image">
-                    <img src={data.image} alt="image" width="100%" />
+                    <img src={data.image} alt="Preview" width="100%" />
                 </div>
                 <div className="blog-text">
                     <p className='date'>{data.date}</p>
