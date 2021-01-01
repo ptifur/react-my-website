@@ -14,6 +14,7 @@ function App() {
       <BlogPostRead />
     </div>
   )
+  // code-is-poetry
 }
 
 export default App
