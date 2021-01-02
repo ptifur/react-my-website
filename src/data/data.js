@@ -35,7 +35,7 @@ export const postData = [
     },
     {
         "id": 5,
-        "date": "Oct, 2020",
+        "date": "Aug, 2020",
         "title": "Early version of my website",
         "text": "<a href='https://blue.ptifur.digital' target='_blank' rel='noopener noreferrer'>blue.ptifur.digital</a>",
         "image": img5
