@@ -38,7 +38,7 @@ export const postData = [
         "id": 5,
         "date": "Oct, 2020",
         "title": "PtiType",
-        "text": "<a href='https://type.ptifur.digital' target='_blank' rel='noopener noreferrer'>type.ptifur.digital</a> JavaScript practice project. It lets you practice typing. This is the fist project I shared on DevTo. And recieved some valuable suggestions from the community",
+        "text": "<a href='https://type.ptifur.digital' target='_blank' rel='noopener noreferrer'>type.ptifur.digital</a> JavaScript practice project. It lets you practice typing. This is the first project I shared on DevTo. And recieved some valuable suggestions from the community",
         "image": img4
     },
     {
