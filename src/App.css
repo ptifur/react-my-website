@@ -1,5 +1,5 @@
 :root {
-    --bg: #f5f5f5;
+    --bg: #f3f3f3;
     --text: #42474e;
     --textgrey: #a5a5a5;
     --highlight: #eb5252;
@@ -11,7 +11,7 @@
     font-family: 'IBM Plex Serif', serif;
     letter-spacing: .5px;
     line-height: 1.6;
-    font-size: 1.1rem;
+    font-size: 19px;
 }
 
 body {
@@ -40,6 +40,7 @@ body {
 
 .menu a {
     margin-left: 25px;
+    font-size: .95em;
 }
 
 a {
@@ -55,6 +56,10 @@ a:hover {
 .inline {
     font-size: 1em;
     color: #eb5252;
+}
+
+img {
+    box-shadow: #272c3133 6px 6px 15px;
 }
 
 .hero {
@@ -101,24 +106,17 @@ h1 {
     font-weight: 600;
 }
 
-/* this is not used in this version */
-.emoji {
-    font-size: 1.6em;
-    vertical-align: -5px;
-    margin-left: 5px;
-}
-
 /* cookie banner */
 .cookieconsent {
     position: fixed;
     padding: 20px;
     left: 15px;
     bottom: 15px;
-    background-color:#f5f5f5;
+    background-color:#eeeeee;
     font-size: .8em;
     color:#272c31;
     text-align: center;
-    width: 17vw;
+    width: 18vw;
     z-index: 10 ;
 }
 
@@ -132,21 +130,14 @@ h1 {
     color: #c26161;
 }
 
-/* temporary fix for emoji */
-.blogpost div span {
-    font-size: 1.6em;
-    vertical-align: -5px;
-    margin-left: 5px;
-}
-
 .blogpost,
 .post {
     width: 55vw;
-    max-width: 930px;
+    max-width: 790px;
     margin: auto;
     background: var(--bg);
     border-radius: 8px;
-    padding: 25px 25px;
+    padding: 15px 15px;
     margin-bottom: 85px;
     position: relative;
 }
@@ -154,21 +145,15 @@ h1 {
 .blogpost::before {
     content: '';
     position: absolute;
-    top: -35px;
+    top: -33.2px;
     left: 4.5vw;
     background: url('./media/paperclip.png') no-repeat;
     background-size: 60%;
-    width: 85px;
-    height: 85px;
+    width: 80px;
+    height: 80px;
 }
 
 .blogpost a {
-    font-size: 1em;
-    color: var(--highlight);
-}
-
-/* this won't be neede later */
-.post a {
     font-size: 1em;
     color: var(--highlight);
 }
@@ -189,7 +174,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.1rem;
+    font-size: 1.1em;
     font-weight: 600;
     margin: 0px;
 }
@@ -198,7 +183,7 @@ h3 {
     color: var(--textgrey);
     font-family: 'IBM Plex Mono', monospace;
     text-align: right;
-    font-size: .9rem;
+    font-size: .85em;
     border-bottom: #bdbdbd 1px solid;
     padding-bottom: 10px;
     margin-bottom: 20px;
