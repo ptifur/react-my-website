@@ -7,7 +7,9 @@ const BlogPostRead = () => (
         {postData.map((data, key) => (
             <div key={key} className='blogpost'>
                 <div className="blog-image">
-                    <img src={data.image} alt="Preview" width="100%" />
+                    <a href={data.link} target='_blank' rel='noopener noreferrer'>
+                        <img src={data.image} alt="Preview" width="100%" />
+                    </a>
                 </div>
                 <div className="blog-text">
                     <p className='date'>{data.date}</p>

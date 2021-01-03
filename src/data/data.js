@@ -10,42 +10,48 @@ export const postData = [
         "id": 1,
         "date": "Jan, 2021",
         "title": "Running Around The Island",
-        "text": "<a href='https://trails.ptifur.digital' target='_blank' rel='noopener noreferrer'>trails.ptifur.digital</a> Google Maps Javascript API in React",
+        "text": "Google Maps Javascript API in React",
+        "link": "https://trails.ptifur.digital",
         "image": img1
     },
     {
         "id": 2,
         "date": "Dec, 2020",
         "title": "Motion Exploration",
-        "text": "<a href='https://randomwalker.ptifur.digital' target='_blank' rel='noopener noreferrer'>randomwalker.ptifur.digital</a> Random walker and collisions using Canvas. Spent couple of weeks watching Coding Train videos. Learned how to setup p5.js library. Although this projects is created with pure javascript",
+        "text": "Random walker and collisions using Canvas. Spent couple of weeks watching Coding Train videos. Learned how to setup p5.js library. Although this projects is created with pure javascript",
+        "link": "https://randomwalker.ptifur.digital",
         "image": img2
     },
     {
         "id": 3,
         "date": "Dec, 2020",
         "title": "Poung",
-        "text": "<a href='https://poung.ptifur.digital' target='_blank' rel='noopener noreferrer'>poung.ptifur.digital</a> Poung game in React. Learned how to use requestAnimationFrame() function in React",
+        "text": "Poung game in React. Learned how to use requestAnimationFrame() function in React",
+        "link": "https://poung.ptifur.digital",
         "image": img6
     },
     {
         "id": 4,
         "date": "Aug, 2020",
         "title": "Previous version of my website with a moving blob",
-        "text": "<a href='https://prev.ptifur.digital' target='_blank' rel='noopener noreferrer'>prev.ptifur.digital</a> HTML / CSS responsive website",
+        "text": "HTML / CSS responsive website",
+        "link": "https://prev.ptifur.digital",
         "image": img3
     },
     {
         "id": 5,
         "date": "Oct, 2020",
         "title": "PtiType",
-        "text": "<a href='https://type.ptifur.digital' target='_blank' rel='noopener noreferrer'>type.ptifur.digital</a> JavaScript practice project. It lets you practice typing. This is the first project I shared on DevTo. And recieved some valuable suggestions from the community",
+        "text": "JavaScript practice project. It lets you practice typing. This is the first project I shared on DevTo. And recieved some valuable suggestions from the community",
+        "link": "https://type.ptifur.digital",
         "image": img4
     },
     {
         "id": 6,
         "date": "Aug, 2020",
         "title": "Early version of my website",
-        "text": "<a href='https://blue.ptifur.digital' target='_blank' rel='noopener noreferrer'>blue.ptifur.digital</a>",
+        "text": "",
+        "link": "https://blue.ptifur.digital",
         "image": img5
     }
 ]
