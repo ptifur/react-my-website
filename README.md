@@ -4,8 +4,4 @@
 
 ## What else
 
-- Link as a separate object item
-
-- Use link for the image
-
 - Update Motion Exploration preview
